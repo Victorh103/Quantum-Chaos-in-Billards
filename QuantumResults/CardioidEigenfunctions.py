@@ -164,7 +164,7 @@ def create_cardioid_eigenfunctions_with_given_k(k_values, n_values):
     Crear autofunciones del cardioide con autovalores dados - VERSION CENTRADA
     """
     # Crear billar cardioide
-    cardioid_billiard = CardioidBilliardEigenfunctions(N_boundary=20)  # Más puntos para mejor precisión
+    cardioid_billiard = CardioidBilliardEigenfunctions(N_boundary=500)  # Más puntos para mejor precisión
     
     # Grilla para evaluar las funciones - expandida y centrada
     resolution = 300  # Mayor resolución
